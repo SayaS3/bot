@@ -1,2 +1,4 @@
 pip install pyscreeze Pillow
 pip install opencv-python
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
