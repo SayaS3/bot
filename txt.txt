@@ -1,0 +1,5 @@
+import datetime
+def log_error(symbol, image_path):
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open('errors.txt', 'a') as f:
+        f.write(f"Faktura: {symbol} - Nie znaleziono zdjecia: {image_path} - {current_time}\n")
